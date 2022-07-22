@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-focal
 
 # Args / Env
 ARG repositoryUrl=https://github.com/ThiagoBarradas/DotNetCore.WebApi.Docker.Demo
